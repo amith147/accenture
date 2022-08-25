@@ -14,8 +14,8 @@ print("3.mul")
 print("4.div")
 #take input from user
 choice=input("Enter the choice(1/2/3/4/5):")
-num1 = int(input("Enter the first number"))
-num2 = int(input("Enter the second number"))
+num1 = int(input("Enter the first value"))
+num2 = int(input("Enter the second value"))
 if choice=='1':
  print(add(num1,num2))
 elif choice=='2':
